@@ -33,7 +33,7 @@ It is a two pass command:
 ```
 ffmpeg -y -i banner.mov -c:v libx264 -b:v 1300k -pass 1 -an -f mp4 /dev/null && ffmpeg -i banner.mov -c:v libx264 -b:v 1300k -pass 2 -profile:v main -level 4.0 -movflags +faststart output3.mp4
 ```
-Ending result is 3.7 MB file, but with very fine quality.
+Ending result is file output3.mp4 3.7 MB file, but with very fine quality.
 
 ![Encoding tests](Selection_113.png)
 
