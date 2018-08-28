@@ -5,6 +5,8 @@ Bash script to utilze ffmpeg, convert and optimize video for usage on websites
 After some experimenting I have figured out that following code, including javascript canvas player works
 on most devices.
 
+Full code with nice centered video and overlay working on all devices is available in index.htm 
+
 ```
 <video id="video1" poster="bg.jpg" class="video" muted="muted" loop="loop" autoplay="autoplay">
     <source src="bg.webm" type="video/webm">
