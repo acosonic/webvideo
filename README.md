@@ -9,4 +9,4 @@ ffmpeg -i banner.mov -vcodec libvpx -r 24 -an -movflags faststart  -c:v libvpx-v
 ```
 The 1.1 MB file is default encoding, I think with vp8, but it's quality is not satisfying...
 
-![Encoding tests](Section_112.png)
+![Encoding tests](Selection_112.png)
