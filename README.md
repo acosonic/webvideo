@@ -7,6 +7,8 @@ with following command...
 ```
 ffmpeg -i banner.mov -vcodec libvpx -r 24 -an -movflags faststart  -c:v libvpx-vp9 -crf 30 -b:v 750k banner6.webm
 ```
-The 1.1 MB file is default encoding, I think with vp8, but it's quality is not satisfying...
+Checkout the top file on this list.
 
 ![Encoding tests](Selection_112.png)
+
+The 1.1 MB file is done with default encoding without -b:v flag. I think with vp8, but it's quality is not satisfying...
