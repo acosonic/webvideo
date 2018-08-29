@@ -27,6 +27,10 @@ Checkout the top file on this list.
 
 The 1.1 MB file is done with default encoding without -b:v flag. I think with vp8, but it's quality is not satisfying...
 
+* OSX users, you might want to reinstall ffmpeg with libvpx, I did it using homebew reinstall like this:
+
+`brew reinstall ffmpeg --with-libvpx`
+
 ## MP4
 
 Also, after playing for a while, turned out this command gave me the best results.
