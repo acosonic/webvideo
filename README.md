@@ -1,5 +1,8 @@
 # WebVideo
-Bash script to utilze ffmpeg, convert and optimize video for usage on websites 
+
+This is a bash script, and HTML5 or javascript canvas based cross-browser mobile friendly video player.
+
+Bash script utilzes ffmpeg, convert and optimizes video for usage on websites 
 
 
 After some experimenting I have figured out that following code, including javascript canvas player works
