@@ -15,7 +15,7 @@ Full code with nice centered video and overlay working on all devices is availab
     <source src="bg.webm" type="video/webm">
     <source src="bg.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
-  </video>
+</video>
 ```
 ## WEBM
 
